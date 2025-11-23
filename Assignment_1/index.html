@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrim Verma - Portfolio</title> <!-- CHANGED: Added a meaningful title -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CHANGED: Added "header" class for styling and kept container for width -->
+    <header class="container header">
+        <div>
+            <h1>Agrim Verma</h1>
+            <!-- CHANGED: Gave tagline its own class for styling -->
+            <p class="tagline">Eternal Writer - Destined by Eternity</p>
+        </div>
+
+        <!-- CHANGED: kept id, but links now match section ids in lowercase -->
+        <nav id="nav_links">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a> <!-- ADDED: contact link -->
+        </nav>
+    </header>
+
+    <!-- CHANGED: Added "container" and "about-section" for layout -->
+    <section id="about" class="container about-section">
+        <!-- CHANGED: Made src relative & moved styling into CSS via class -->
+        <img src="harry.webp" alt="Agrim Verma" class="profile_image">
+
+        <!-- CHANGED: Wrapped text & education in one div for right column -->
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Ipsam iusto eligendi deleniti, maxime, soluta fugit sit sed
+                nulla magni quasi neque pariatur quae corporis mollitia,
+                maiores iste quis delectus. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Vitae reprehenderit quia
+                quaerat ab adipisci consectetur consequuntur aut non aliquid
+                distinctio. Reprehenderit debitis harum magni iusto itaque
+                quae mollitia quas repudiandae!
+            </p>
+
+            <!-- CHANGED: Moved education inside About as a sub-section -->
+            <section id="education" class="education">
+                <h2>Education</h2> <!-- ADDED: heading above table -->
+                <table>
+                    <tr>
+                        <th>Institution</th>
+                        <th>Degree</th>
+                    </tr>
+                    <tr>
+                        <td>JMK International School</td>
+                        <td>Senior Secondary</td>
+                    </tr>
+                    <tr>
+                        <td>Thapar Institute of Engineering</td>
+                        <td>B.E. Computer Engineering</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </section>
+
+    <!-- CHANGED: id to lowercase & added container + section-block for spacing -->
+    <section id="skills" class="container section-block">
+        <h2>Skills</h2>
+        <ul>
+            <li>Front-End Development</li>
+            <li>Data Analysis</li>
+            <li>Machine Learning</li>
+            <li>C++</li>
+        </ul>
+    </section>
+
+    <!-- CHANGED: id to lowercase & added container + section-block -->
+    <section id="projects" class="container section-block">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="#">Opportunity Quest</a></li> <!-- CHANGED: placeholder link "#" -->
+            <li><a href="#">Multi-Modal Approach to Heart Disease Prediction</a></li>
+        </ul>
+    </section>
+
+    <!-- CHANGED: Added id + container + section-block for consistent styling -->
+    <section id="contact" class="container section-block">
+        <h2>Contact Me</h2>
+        <p><a href="mailto:eternalwriter11@gmail.com">Email</a></p>
+    </section>
+
+
+    <footer>
+        Developed by Agrim Verma
+    </footer>
+
+
+</body>
+</html>
